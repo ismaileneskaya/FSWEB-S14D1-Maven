@@ -1,3 +1,4 @@
+import com.workintech.Develeopers.JuniorDeveloper;
 import com.workintech.cylinder.Circle;
 import com.workintech.cylinder.Cylinder;
 import com.workintech.pool.Cuboid;
@@ -21,7 +22,7 @@ public class Main {
         System.out.println("cylinder.volume= " + cylinder.getVolume());
 
  */
-        Rectangle rectangle = new Rectangle(5, 10);
+     /*   Rectangle rectangle = new Rectangle(5, 10);
 
         System.out.println("rectangle.width= " + rectangle.getWidth());
 
@@ -40,10 +41,15 @@ public class Main {
         System.out.println("cuboid.height= " + cuboid.getHeight());
 
         System.out.println("cuboid.volume= " + cuboid.getVolume());
+*/
+
+
+        JuniorDeveloper ahmet = new JuniorDeveloper(1, "ahmet", 0);
+        JuniorDeveloper ayse = new JuniorDeveloper(2, "ayse", 0);
+
+        ahmet.work();
+        ayse.work();
 
 
     }
-
-
-
 }
